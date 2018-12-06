@@ -11,7 +11,7 @@ AccelStepper stepper0 (AccelStepper::DRIVER, 15, 2);
 AccelStepper stepper1 (AccelStepper::DRIVER, 4, 17);
 AccelStepper stepper2 (AccelStepper::DRIVER, 5, 18);
 AccelStepper stepper3 (AccelStepper::DRIVER, 23, 32);
-AccelStepper stepper4 (AccelStepper::DRIVER, 3, 22);//3 = RX-0 pin. Will change in next version
+AccelStepper stepper4 (AccelStepper::DRIVER, 16, 22);// pin 3 on old board!
 AccelStepper stepper5 (AccelStepper::DRIVER, 19, 21);
 AccelStepper stepper6 (AccelStepper::DRIVER, 33, 25);
 AccelStepper stepper7 (AccelStepper::DRIVER, 26, 27);
